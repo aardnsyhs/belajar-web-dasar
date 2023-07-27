@@ -5,11 +5,11 @@
 }
 
 html {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 body {
-  background: hsl(0, 0%, 90%);
+  background: #9DB2BF;
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
@@ -21,16 +21,16 @@ h2, h3 {
 
 main {
   padding: 20px;
-  overflow: auto
+  overflow: auto;
 }
 
 #content {
   float: left;
-  width: 75%
+  width: 75%;
 }
 
 .jumbotron {
-  background: url("../img/IMG_20210605_160201.jpg");
+  background: url("../img/wolfgang-hasselmann-XdBE_p1AKDU-unsplash.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -42,7 +42,7 @@ main {
 }
 
 .judTron {
-  font-size: 75px;
+  font-size: 60px;
   font-weight: 700;
 }
 
@@ -61,7 +61,7 @@ main {
 }
 
 .profile header {
-  text-align: center
+  text-align: center;
 }
 
 .featured-image {
@@ -78,21 +78,21 @@ header {
 aside {
   float: right;
   width: 25%;
-  padding-left: 20px
+  padding-left: 20px;
 }
 
 footer {
-  background: linear-gradient(90deg, rgba(249,249,249,1) 1%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+  background: #27374D;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
   padding: 20px;
   color: #cfcfcf;
   text-align: center;
-  font-weight: 700
+  font-weight: 700;
 }
 
 nav {
   font-size: 18px;
-  background: linear-gradient(90deg, rgba(209,209,209,1) 2%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+  background: #27374D;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
   border-radius: 5px;
   padding-bottom: 10px;
